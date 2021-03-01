@@ -11,7 +11,7 @@ let addTodo = () => {
     }
 }
 
-function clearTodo() {
+let clearTodo = () => {
     let allTodo = document.getElementById('todo')
     allTodo.innerHTML = ''
 
