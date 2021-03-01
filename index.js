@@ -1,4 +1,4 @@
-function addTodo() {
+let addTodo = () => {
     let input = document.getElementById('inputTodo').value
     let inputText = document.createTextNode(input)
     if (input === '') {
