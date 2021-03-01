@@ -1,0 +1,70 @@
+.todo-list {
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(45, 133, 248);
+    text-align: center;
+    padding: 1rem 5px;
+}
+.header h1 {
+    letter-spacing: 3px;
+}
+.input-wrapper input {
+    width: 70%;
+    height: 20px;
+    font-size: 22px;
+    caret-color: rgb(45, 133, 248);
+    color: rgb(45, 133, 248);
+    padding: 10px 4px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.btn {
+    margin: 1rem;
+}
+.btn button {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    font-size: 17px;
+    border-radius: 2px;
+    transition: .4s;
+    cursor: pointer;
+} 
+.btn button:nth-child(1) {
+    background-color: rgb(238, 9, 9);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn button:nth-child(1):hover {
+    background-color: rgb(214, 3, 3);
+}
+.btn button:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn button:nth-child(2):hover {
+    background-color: rgb(29, 29, 29);
+}
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px 20px;
+}
+
+.btn:hover button {
+    color: red;
+}

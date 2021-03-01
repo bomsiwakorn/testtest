@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="todo-list">
+        <div class="header">
+            <h1>Todo List</h1>
+        </div>
+        <div class="input-wrapper">
+            <input type="text" id="inputTodo" type="text">
+        </div>
+        <div class="btn">
+            <button onclick="clearTodo()">CLEAR</button>
+            <button type="submit" onclick="addTodo()">SUBMIT</button>
+        </div>
+        <ul id="todo" class="todo">
+        </ul>
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>
